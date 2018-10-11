@@ -1,0 +1,21 @@
+.container {
+  height:100%;
+  width: 100%;
+  top:0;
+  left:0;
+  background: rgba(grey, .3);
+  position: fixed;
+  z-index: 100;
+  -webkit-animation: fadein 0.1s linear forwards;
+  animation: fadein 0.1s linear forwards;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

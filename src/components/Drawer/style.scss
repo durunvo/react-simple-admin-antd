@@ -1,0 +1,32 @@
+// @import '../../styles/theme.scss';
+
+.sider {
+  min-height: 100vh;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  height: 64px;
+  position: relative;
+  line-height: 64px;
+  padding: 0 12px;
+  transition: all .3s;
+  background: #002140;
+  overflow: hidden;
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+  }
+  h1 {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    margin: 0 0 0 12px;
+    font-weight: 600;
+  }
+}
